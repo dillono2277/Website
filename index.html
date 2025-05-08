@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <!-- TODO: Replace this with your title -->
+    <title>Dillon O'Bourke</title>
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/
+		-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    />
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="scroll-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <i class="bi bi-house-door"></i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav-collapse" class="collapse navbar-collapse">
+          <div class="navbar-nav ms-auto">
+            <!-- Mission/Meet-me section -->
+            <section id="mission-section"></section>
+            <a href="#mission" class="nav-link">Mission</a>
+            <!-- Skills section -->
+            <section id="skills-section"></section>
+            <a href="#skills" class="nav-link">Skills</a>
+            <!-- Contact Section -->
+            <section id="contact-section"></section>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#projects" class="nav-link">Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <main>
+      <section id="hero-section">
+        <header id="home">
+          <!-- Icon with border -->
+          <div class="icon-container">
+            <img src="img/headshot.jpeg" alt="Profile Image" />
+            <!-- Replace with your desired icon -->
+          </div>
+          <h1 class="display-4">Dillon O'Bourke</h1>
+          <!-- Adjust the heading size -->
+          <p class="lead">Future Software Engineer</p>
+          <!-- Subheading -->
+        </header>
+      </section>
+      <!-- Mission Section -->
+      <section id="mission" class="py-5">
+        <div class="container">
+          <h2>My Mission</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="image-wrapper">
+                <img
+                  src="https://www.queensu.ca/gazette/sites/gazettewww/files/assets/WEB%20Coding%20arnold-francisca-nPhl2x4fk2s-unsplash.jpg"
+                  alt="Mission Image"
+                  class="img-fluid rounded"
+                />
+              </div>
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-6">
+              <p>
+                My mission is to create and innovate meaningful solutions that
+                contribute to society and improve lives through technology. As a
+                Software Engineering student at Barrett, the Honors College at
+                Arizona State University, I am passionate about building
+                impactful projects and exploring how technology can drive
+                positive change. From fixing bugs to leading team projects, I
+                strive to develop new solutions and help others achieve their
+                goals. I’m excited to collaborate, share ideas, and continue
+                growing as a developer while making a difference in the world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-5">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="skill-card">
+                <i class="bi bi-filetype-java"></i>
+                <h3>Java</h3>
+                <p>
+                  Proficient in Java programming for building robust
+                  applications.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="skill-card">
+                <i class="bi bi-filetype-js"></i>
+                <h3>JavaScript</h3>
+                <p>
+                  Experienced in JavaScript for frontend interactivity and
+                  backend development.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="skill-card">
+                <i class="bi bi-filetype-html"></i>
+                <h3>HTML/CSS</h3>
+                <p>
+                  Skilled in creating responsive and visually appealing web
+                  designs.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="skill-card">
+                <i class="bi bi-cpu"></i>
+                <h3>AI / APIs</h3>
+                <p>
+                  Familiar with artificial intelligence concepts and integrating
+                  APIs to enhance applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="py-5">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="row">
+            <!-- Flappy Bird Clone -->
+            <div class="col-md-4">
+              <div class="skill-card">
+                <i class="bi bi-controller"></i>
+                <h3>Flappy Bird Clone</h3>
+                <p>
+                  A fully finished clone of the classic Flappy Bird game, built
+                  with smooth animations and collision detection.
+                </p>
+                <button
+                  onclick="openVideoModal()"
+                  class="btn btn-outline-primary mt-2"
+                >
+                  View Project
+                </button>
+
+                >
+              </div>
+            </div>
+            <!-- HTML Server -->
+            <div class="col-md-4">
+              <div class="skill-card">
+                <i class="bi bi-hdd-network"></i>
+                <h3>HTML Server</h3>
+                <p>
+                  Currently developing a basic HTML server to host and serve web
+                  pages locally or on a network.
+                </p>
+                <a href="#" class="btn btn-outline-primary mt-2">In Progress</a>
+              </div>
+            </div>
+            <!-- Algorithm Visualizer -->
+            <div class="col-md-4">
+              <div class="skill-card">
+                <i class="bi bi-graph-up"></i>
+                <h3>Algorithm Visualizer</h3>
+                <p>
+                  Future project: an interactive visualizer to demonstrate
+                  sorting and searching algorithms in action.
+                </p>
+                <a href="#" class="btn btn-outline-primary mt-2">Coming Soon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Contact</h2>
+          <p class="text-center mb-4">
+            If you'd like to get in touch, please reach out via email or connect
+            with me on social media.
+          </p>
+          <div class="d-flex justify-content-center gap-4">
+            <!-- LinkedIn Button -->
+            <a
+              href="https://www.linkedin.com/in/dillon-o-bourke"
+              target="_blank"
+              class="btn btn-outline-primary btn-icon"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <!-- Email Button -->
+            <a
+              href="mailto:dillonobourke@gmail.com"
+              target="_blank"
+              class="btn btn-outline-primary btn-icon"
+            >
+              <i class="bi bi-envelope"></i>
+            </a>
+            <!-- GitHub Button -->
+            <a
+              href="https://github.com/dillono2277"
+              target="_blank"
+              class="btn btn-outline-primary btn-icon"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <section id="footer-section">
+      <footer>
+        <p>© Dillon O'Bourke 2025</p>
+      </footer>
+    </section>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <div
+      id="videoModal"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <video id="gameplayVideo" width="80%" autoplay loop controls>
+        <source src="videos/flappybird.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <button
+        onclick="closeVideoModal()"
+        style="
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          font-size: 2rem;
+          background: none;
+          color: white;
+          border: none;
+          cursor: pointer;
+        "
+      >
+        &times;
+      </button>
+    </div>
+
+    <script>
+      function openVideoModal() {
+        document.getElementById("videoModal").style.display = "flex";
+      }
+
+      function closeVideoModal() {
+        document.getElementById("videoModal").style.display = "none";
+        document.getElementById("gameplayVideo").pause();
+      }
+    </script>
+  </body>
+</html>
